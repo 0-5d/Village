@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Village</title>
+    <!-- <link rel="stylesheet" href="/css/master.css"> -->
+    <script type="text/javascript">
+    let people = 52;
+    let availablePeople = people;
+    let lumber = 0;
+    let houses = 52;
+    let lumberJacks = 0;
+    let houseBuilders = 0;
+    let peopleMakers = 0;
+    let availableHouses = 0;
+
+    </script>
+
+  </head>
+  <body>
+    <h1>Welcome to Village</h1>
+    <input id = 'userName' placeholder="what should we call you?">
+    <p id = 'welcome' style = 'display:none'></p>
+    <button name="button" id = 'userNameButton' style = "display:none"></button>
+    <h3 id = 'peopleShower'>people:
+      <script type="text/javascript">
+        document.write(people)
+      </script>
+    </h3>
+    <h3 id = 'availablePeopleShower'>available people:
+      <script type="text/javascript">
+        document.write(availablePeople)
+      </script>
+    </h3>
+    <h3 id = 'lumberShower'>
+      lumber:
+      <script type="text/javascript">
+          document.write(lumber)
+      </script>
+    </h3>
+    <h3 id = 'housesShower'>
+      houses:
+      <script type="text/javascript">
+          document.write(houses)
+      </script>
+    </h3>
+    <h3 id = 'availableHousesShower'> available houses:
+      <script type="text/javascript">
+        document.write(availableHouses)
+      </script>
+    </h3>
+    <h3 id = 'lumberJacksShower'>
+      lumberJacks:
+      <script type="text/javascript">
+          document.write(lumberJacks)
+      </script>
+    </h3>
+    <p>add lumber jacks?</p>
+    <input type="text" id = 'lumberJackAdder'>
+    <h3 id = 'peopleMakerShower'>
+      peopleMakers:
+      <script type="text/javascript">
+          document.write(peopleMakers)
+      </script>
+    </h3>
+    <p>add people makers?</p>
+    <input type="text" id = 'fuckerAdder'>
+    <h3 id = 'houseBuildersShower'>
+      houseBuilders:
+      <script type="text/javascript">
+          document.write(houseBuilders)
+      </script>
+    </h3>
+    <p>add house builders?</p>
+    <input type="text" id = 'houseBuilderAdder'>
+    <p>
+      1 housebuilder + 100 lumber = 2 per year
+      2 peopleMakers = 1 per year (needs even number of people makers)
+      1 lumber jack = 36500 per year
+    </p>
+    <h3>wait how many years?</h3>
+    <input type="text" id = 'yearAdder'>
+    <button type="button" name="button" style = 'display:none' id = 'yearAdderButton'></button>
+    <p id = 'nonos'></p>
+    <script src = 'scripts/main.js'></script>
+  </body>
+</html>
