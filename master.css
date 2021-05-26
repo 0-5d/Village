@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+}
+
+p {
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white
+}
+
+h3 {
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white
+}
+
+input {
+  text-align: center;
+}
