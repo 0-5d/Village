@@ -1,1 +1,1 @@
-# Village is a simple game where you make a village
+# Village is a minimalist text based village builder game, that uses time skips to show the progress the village makes with your guidance
