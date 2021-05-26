@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Village</title>
-    <!-- <link rel="stylesheet" href="/css/master.css"> -->
+    <link rel="stylesheet" href = 'css/master.css'>
     <script type="text/javascript">
     let people = 52;
     let availablePeople = people;
@@ -19,7 +19,8 @@
   </head>
   <body>
     <h1>Welcome to Village</h1>
-    <input id = 'userName' placeholder="what should we call you?">
+    <div style = 'text-align:center'>
+    <input id = 'userName' placeholder="what should we call you?"> </div>
     <p id = 'welcome' style = 'display:none'></p>
     <button name="button" id = 'userNameButton' style = "display:none"></button>
     <h3 id = 'peopleShower'>people:
@@ -55,8 +56,10 @@
           document.write(lumberJacks)
       </script>
     </h3>
-    <p>add lumber jacks?</p>
+    <p>add lumber jacks?</p><div style = 'text-align: center'>
+    <div style = 'text-align: center'>
     <input type="text" id = 'lumberJackAdder'>
+    </div>
     <h3 id = 'peopleMakerShower'>
       peopleMakers:
       <script type="text/javascript">
@@ -64,7 +67,9 @@
       </script>
     </h3>
     <p>add people makers?</p>
+    <div style = 'text-align: center'>
     <input type="text" id = 'fuckerAdder'>
+    </div>
     <h3 id = 'houseBuildersShower'>
       houseBuilders:
       <script type="text/javascript">
@@ -72,14 +77,22 @@
       </script>
     </h3>
     <p>add house builders?</p>
+    <div style = 'text-align: center'>
     <input type="text" id = 'houseBuilderAdder'>
+    </div>
+    <h3>wait how many years?</h3>
+    <div style = 'text-align: center'>
+    <input type="text" id = 'yearAdder'>
     <p>
       1 housebuilder + 100 lumber = 2 per year
+    </p>
+    <p>
       2 peopleMakers = 1 per year (needs even number of people makers)
+    </p>
+    <p>
       1 lumber jack = 36500 per year
     </p>
-    <h3>wait how many years?</h3>
-    <input type="text" id = 'yearAdder'>
+    </div>
     <button type="button" name="button" style = 'display:none' id = 'yearAdderButton'></button>
     <p id = 'nonos'></p>
     <script src = 'scripts/main.js'></script>
