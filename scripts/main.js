@@ -29,13 +29,16 @@ people = parseInt(people)
 tempPeople = availablePeople // a variable to show the value of people while we make changes to it that we may not want to apply if there are any errors in user input
 
 document.getElementById('yearAdderButton').onclick = function letsGetGroovin(){
+  if (isNaN(document.getElementById('yearAdderButton').value)) {
+    
+  }
   if (parseInt(document.getElementById('lumberJackAdder').value) > parseInt(tempPeople)){
     nono = true
     nonoList.push('too many lumber jacks not enough people')
   } else{
 
     tempPeople -= parseInt(document.getElementById('lumberJackAdder').value)
-    
+
   }
   if (parseInt(document.getElementById('houseBuilderAdder').value) > tempPeople){
     nono = true
